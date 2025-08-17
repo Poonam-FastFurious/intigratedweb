@@ -1,0 +1,23 @@
+/* maintenance.css */
+.maintenance-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.maintenance-box {
+  max-width: 400px;
+}
+
+.maintenance-box h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.maintenance-box p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
