@@ -264,14 +264,7 @@ function Contactus() {
         </div>
       </section>
 
-      <section className="contact-page-google-map">
-        <iframe
-          src="https://maps.google.com/maps?q=Chirag%20Enclave%20Delhi%20110048&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near"
-          aria-label="Chirag Enclave"
-          className="contact-page-google-map__one"
-          allowFullScreen
-        ></iframe>
-      </section>
+     
     </>
   );
 }

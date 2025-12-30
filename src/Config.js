@@ -1,1 +1,1 @@
-export const Baseurl = "https://backendintigrated.brandbell.in/api/v1/";
+export const Baseurl = import.meta.env.VITE_BASE_URL;
