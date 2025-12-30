@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import axios from "axios";
 import { Baseurl } from "../../Config";
@@ -214,57 +215,74 @@ function Contactus() {
         </div>
       </section>
 
-      <section className="contact-page__contact-info clearfix">
-        <div className="auto-container">
+      <section className="contact-page__investor-info clearfix">
+        <div className="container">
           <div className="row">
-            <div className="col-xl-12">
-              <div className="contact-page__contact-info-wrapper">
-                <div className="contact-page__contact-info-title">
-                  <h2>Get in Touch</h2>
-                </div>
+            {/* Investor Contact */}
+            <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div className="contact-info-box h-100">
+                <h4>Investor Contact</h4>
+                <p>
+                  <strong>Name:</strong> Priyanka
+                </p>
+                <p>
+                  <strong>Designation:</strong> Head – Investor Relations
+                </p>
+                <p>
+                  <strong>Phone:</strong>{" "}
+                  <a href="tel:012046142002">0120-46142002</a>
+                </p>
+                <p>
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:cs.integrated25@gmail.com">
+                    cs.integrated25@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
 
-                <div className="contact-page__contact-info-list">
-                  <ul>
-                    <li>
-                      <div className="icon">
-                        <span className="icon-map"></span>
-                      </div>
-                      <div className="title">
-                        <span>Visit Our Store</span>
-                        <p>{contactAddress}</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <span className="icon-email-1"></span>
-                      </div>
-                      <div className="title">
-                        <span>Send Email</span>
-                        <p>
-                          <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon phone">
-                        <span className="icon-phone-call-2"></span>
-                      </div>
-                      <div className="title">
-                        <span>Call Anytime</span>
-                        <p>
-                          <a href={`tel:${contactPhone}`}>{contactPhone}</a>
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+            {/* Corporate Office */}
+            <div className="col-xl-4 col-lg-4 col-md-6 mb-4">
+              <div className="contact-info-box h-100">
+                <h4>Corporate Office</h4>
+                <p>
+                  Priyanka <br />
+                  B-16, Second Floor-2, Sector-2 <br />
+                  Noida – 201301, India
+                </p>
+                <p>
+                  <strong>Phone:</strong>{" "}
+                  <a href="tel:+911204614300">+91 120 4614300</a>
+                </p>
+                <p>
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:info@integratedindustries.in">
+                    info@integratedindustries.in
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            {/* Registrar & Transfer Agent */}
+            <div className="col-xl-4 col-lg-4 col-md-12 mb-4">
+              <div className="contact-info-box h-100">
+                <h4>Registrar & Transfer Agent</h4>
+                <p>
+                  Skyline Financial Services Private Limited <br />
+                  D-153 A, 1st Floor, Okhla Industrial Area <br />
+                  Phase – I, New Delhi – 110020
+                </p>
+                <p>
+                  <strong>Phone:</strong> 011-26812682, 26812683
+                </p>
+                <p>
+                  <strong>Other Lines:</strong> 40450193 – 40450197
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-     
     </>
   );
 }
